@@ -31,3 +31,14 @@ ppois(10,2)
 1-ppois(6,2)
 data.frame(0:10,dpois(10,2))
 plot(0:10,dpois(0:10,2),type='h',xlab = "y", ylab="p(y)",main="poisson Distribution")
+
+
+---------------------------------------------------------
+
+install.packages(moments)
+library(moments)
+marks=c(41,23,45,33,24,34,32,12,32,23,4,22,11,44)
+all.moments(marks)
+library(moments)
+all.moments(marks,6)
+all.moments(marks,central=TRUE)
