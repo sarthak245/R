@@ -1,0 +1,33 @@
+px = dbinom(0:7,7,1/4)
+px
+x=c(0:7)
+x
+mean=sum(x*px)
+mean
+varx=sum(x^2*px)-mean^2
+varx
+Ex=7*1/4
+Ex
+vr=7*1/4*3/4
+vr
+dpois(5,7)
+dpois(0:5,7)
+ppois(0:5,7)
+round(ppois(0:100,7),2)
+x=c(0:100)
+px=dpois(x,4)
+ex=sum(x*px)
+vrx=sum(x^2*px)-ex^2
+ex
+vrx
+p=data.frame(0:10,2),ppoints(0:10,2),ppois(0:10,2))
+p
+pr=i-ppois(16,12)
+pr
+ppois(x,2)
+round(p,4)
+ppois(6,2)
+ppois(10,2)
+1-ppois(6,2)
+data.frame(0:10,dpois(10,2))
+plot(0:10,dpois(0:10,2),type='h',xlab = "y", ylab="p(y)",main="poisson Distribution")
