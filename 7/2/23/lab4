@@ -20,7 +20,7 @@ ex=sum(x*px)
 vrx=sum(x^2*px)-ex^2
 ex
 vrx
-p=data.frame(0:10,2),ppoints(0:10,2),ppois(0:10,2))
+p=data.frame(0:10,2),ppoints(0:10,2),ppois(0:10,2)
 p
 pr=i-ppois(16,12)
 pr
