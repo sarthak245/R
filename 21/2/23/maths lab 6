@@ -1,0 +1,25 @@
+x=seq(-10,10,0.1)
+x
+y=dnorm(x,2.5,0.5)
+y
+plot(x,y,type='1')
+dnorm(1,2.5,0.5)
+pnorm(1,2.5,0.5)
+qnorm(0.001349898,2.5,0.5)
+z=rnorm(50)
+hist(z,main="Normal distribution")
+round(1-pnorm(2.64),4)
+pnorm(2.64,lower.tail = FALSE)
+pnorm(0.87)-pnorm(0)
+1-pnorm(1.39)
+pnorm(-1.39)
+
+Find(i)   P(0.8<=z<=1.5)      ii)P(Z<2)   iii) P(Z>=1)
+Find these probability values and plot the graph.
+2) if mean = 70 and standard deviation is 16
+i) P(38<=X<=46)   ii) P(82<=x<=94)   iii) P(
+
+
+
+
+
